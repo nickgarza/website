@@ -23,14 +23,17 @@ export default function Contact() {
                 <Card.Link href="https://www.linkedin.com/in/thuyvyng/">
                   linkedin @ thuyvyng
                 </Card.Link>
-                <Card.Link href="mailto:thuyvynguy@gmail.com">
+                <Card.Link href="https://www.instagram.com/thuyvyng">
                   instagram @ thuyvng
                 </Card.Link>
-                <Card.Link href="mailto:thuyvynguy@gmail.com">
+                <Card.Link href="https://www.goodreads.com/thuyvyng">
                   goodreads @ thuyvyng
                 </Card.Link>
-                <Card.Link href="mailto:thuyvynguy@gmail.com">
+                <Card.Link href="https://open.spotify.com/user/tweetynguy">
                   spotify @ tweetynguy
+                </Card.Link>
+                <Card.Link href="https://letterboxd.com/thuyvyng/">
+                  letterboxd @ thuyvyng
                 </Card.Link>
               </Card.Body>
             </Card>
