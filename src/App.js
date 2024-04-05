@@ -5,6 +5,7 @@ import Experience from "./pages/experience";
 import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 import Travel from "./pages/travel";
+import Glob from "./pages/globe";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -17,6 +18,7 @@ const App = () => (
       <Route path="/projects" element={<Projects />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/travel" element={<Travel />} />
+      <Route path="/globe" element={<Glob />} />
       <Route path="*" element={<Home />} />
     </Routes>
   </Router>
