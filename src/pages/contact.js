@@ -35,6 +35,9 @@ export default function Contact() {
                 <Card.Link href="https://letterboxd.com/thuyvyng/">
                   letterboxd @ thuyvyng
                 </Card.Link>
+                <Card.Link href="https://www.duolingo.com/profile/ThuyVyNg">
+                  duolingo @ thuyvyng
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>

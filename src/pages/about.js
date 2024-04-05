@@ -74,10 +74,11 @@ export default function About() {
                 <li> salt & straw {">"} molly moon</li>
                 <li>
                   my favorite restaurants in seattle are: Kin Len, Kobuta &
-                  Ookami, Azuki Udon, & Biang Biang but please let me know of
-                  any reccs
+                  Ookami, Azuki Udon, Cornellys, & Biang Biang but please let me
+                  know of any reccs
                 </li>
               </ul>
+              <Card.Link href="/travel"> thuyvy travels!</Card.Link>
             </Card>
           </Col>
         </Row>

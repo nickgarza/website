@@ -99,9 +99,9 @@ export default function Projects() {
                 <Card.Link href="https://ruangroc.github.io/static/VIVA.pdf">
                   poster
                 </Card.Link>
-                {/* <Card.Link href="https://events.engineering.oregonstate.edu/expo2021/project/interfaces-video-search-and-browsing">
-                  Project Page
-                </Card.Link> */}
+                <Card.Link href="https://events.engineering.oregonstate.edu/expo2021/project/interfaces-video-search-and-browsing">
+                  project page
+                </Card.Link>
               </Card.Body>
             </Card>
 
@@ -152,6 +152,19 @@ export default function Projects() {
                 <Card.Link href="https://github.com/mattolson93/dataset-shifts">
                   github
                 </Card.Link>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <Card.Title>ThuyVy Travels!</Card.Title>
+                <Card.Subtitle>Globe To Track ThuyVy's Travels</Card.Subtitle>
+                <br></br>
+                <Card.Text>
+                  3D Globe Visualization that shows where I've traveled, will
+                  also update to showcase my travel photos from these locations.
+                </Card.Text>
+                <Card.Text class="techStack">Globe Gl, React</Card.Text>
+                <Card.Link href={"/travel"}>link</Card.Link>
               </Card.Body>
             </Card>
             <Card>
