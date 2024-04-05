@@ -3,6 +3,7 @@ import Navigation from "../components/navbar";
 import globeJson from "../datasets/countries_110m.json";
 import { Modal, Button, Container, Row, Col } from "react-bootstrap";
 import { useState } from "react";
+import StateMap from "../components/stateMap";
 
 const Glob = () => {
   const [show, setShow] = useState(false);
@@ -36,8 +37,7 @@ const Glob = () => {
           polygonsTransitionDuration={300}
         />
       </div>
-
-      <Modal
+      {/* <Modal
         size="xl"
         show={show}
         onHide={() => setShow(false)}
@@ -49,8 +49,8 @@ const Glob = () => {
             ThuyVy Traveled To: {show}
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>{show}</Modal.Body>
-      </Modal>
+        <Modal.Body></Modal.Body>
+      </Modal> */}
     </>
   );
 };
