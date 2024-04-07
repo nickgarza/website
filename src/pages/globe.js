@@ -4,16 +4,21 @@ import globeJson from "../datasets/countries_110m.json";
 import { Modal, Button, Container, Row, Col } from "react-bootstrap";
 import { useState } from "react";
 import StateMap from "../components/stateMap";
+import { Drawer, Classes } from "@blueprintjs/core";
+import { useModalState } from "../datasets/hooks.ts";
+import PhotoModal from "../components/modal";
 
 const Glob = () => {
   const [show, setShow] = useState(false);
+  const [country, setCountry] = useState("");
 
-  const handleClose = () => setShow(false);
-  const handleShow = (name) => setShow(name);
+  const handleClose = () => {
+    setShow(false);
+  };
   return (
     <>
       <Navigation />
-      <div className="cursor-move">
+      <div>
         <Globe
           polygonsData={globeJson.features}
           polygonCapColor={(geometry) => {
@@ -28,29 +33,18 @@ const Glob = () => {
           polygonLabel={(geometry) => {
             return geometry.properties.name;
           }}
-          onPolygonClick={(geometry) =>
+          onPolygonClick={(geometry) => {
+            setCountry(geometry.properties.name);
+
             geometry.properties.visited
-              ? handleShow(geometry.properties.name)
-              : setShow(false)
-          }
+              ? setShow(geometry.properties.name)
+              : setShow(false);
+          }}
           polygonAltitude={0.025}
           polygonsTransitionDuration={300}
         />
       </div>
-      {/* <Modal
-        size="xl"
-        show={show}
-        onHide={() => setShow(false)}
-        aria-labelledby="example-modal-sizes-title-lg"
-        centered
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="example-modal-sizes-title-lg">
-            ThuyVy Traveled To: {show}
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body></Modal.Body>
-      </Modal> */}
+      <PhotoModal isOpen={show} close={handleClose} country={country} />
     </>
   );
 };
