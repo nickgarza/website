@@ -27,7 +27,7 @@ const PhotoModal = ({ isOpen, close, country }) => {
                   }}
                   key={index}
                   src={image}
-                  alt={`image-${index}`}
+                  alt={`${index}`}
                 />
               ))}
             </Col>
@@ -42,7 +42,7 @@ const PhotoModal = ({ isOpen, close, country }) => {
                     }}
                     key={index}
                     src={image}
-                    alt={`image-${index}`}
+                    alt={`${index}`}
                   />
                 ))}
             </Col>
@@ -57,7 +57,7 @@ const PhotoModal = ({ isOpen, close, country }) => {
                     }}
                     key={index}
                     src={image}
-                    alt={`image-${index}`}
+                    alt={`${index}`}
                   />
                 ))}
             </Col>

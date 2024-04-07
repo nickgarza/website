@@ -20,6 +20,7 @@ const Glob = () => {
       <Navigation />
       <div>
         <Globe
+          // globeImageUrl={"//unpkg.com/three-globe/example/img/earth-night.jpg"}
           polygonsData={globeJson.features}
           polygonCapColor={(geometry) => {
             return geometry.properties.visited ? "#50daa799" : "#eeeeee45";
