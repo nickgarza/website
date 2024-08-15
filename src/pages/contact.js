@@ -38,6 +38,12 @@ export default function Contact() {
                 <Card.Link href="https://www.duolingo.com/profile/ThuyVyNg">
                   duolingo @ thuyvyng
                 </Card.Link>
+                <Card.Link href="https://www.yelp.com/user_details?userid=egY9mB8HEWJOcUCqfYsr_g">
+                  yelp
+                </Card.Link>
+                <Card.Link href="https://www.strava.com/athletes/142466934">
+                  strava
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>
