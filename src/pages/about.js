@@ -10,7 +10,6 @@ export default function About() {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
         <Row>
           <Col>
             {" "}
