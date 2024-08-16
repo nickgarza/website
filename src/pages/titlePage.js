@@ -33,8 +33,8 @@ export default function TitlePage() {
                   {" "}
                   @ oracle
                 </span>
-                , interested in creating cool and silly things. learn more about
-                them and me here!
+                . interested in creating and doing cool and silly things.
+                <br></br> learn more about them and me here!
               </p>
               <br></br>
               <br></br>
