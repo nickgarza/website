@@ -20,7 +20,7 @@ export default function Projects() {
                 <Card.Title>UnPaws the Music</Card.Title>
                 <Card.Text>
                   Web application to learn and interact with your Spotify music
-                  taste with statistics and cat visualizations.
+                  taste with statistics and cat visualizations
                 </Card.Text>
                 <Card.Text class="techStack">
                   React, Redux, Spotify Web API
@@ -61,7 +61,7 @@ export default function Projects() {
                 <Card.Title>What would Cher wear?</Card.Title>
                 <Card.Text>
                   Weather application to help you decide what to wear based on
-                  the weather. Clueless inspired.
+                  the weather, Clueless inspired
                 </Card.Text>
                 <Card.Text class="techStack">
                   React, OpenWeatherMap API
@@ -113,7 +113,7 @@ export default function Projects() {
                 <Card.Text>
                   Slack application to notify users of status changes on their
                   automated deployments within Oracle Cloud Infrastructure's
-                  deployment system.
+                  deployment system
                 </Card.Text>
                 <Card.Text class="techStack">
                   Java, SQL, Slack API, React, Guava's Eventbus
@@ -160,8 +160,8 @@ export default function Projects() {
                 <Card.Subtitle>Globe To Track ThuyVy's Travels</Card.Subtitle>
                 <br></br>
                 <Card.Text>
-                  3D Globe Visualization that shows where I've traveled, will
-                  also update to showcase my travel photos from these locations.
+                  3D Globe Visualization that shows where I've traveled and the
+                  photos from these travels when clicked on
                 </Card.Text>
                 <Card.Text class="techStack">
                   Globe Gl, Google Photos Library API, React
@@ -180,7 +180,7 @@ export default function Projects() {
                 <br></br>
                 <Card.Text>
                   Modeled real-life terrain in vr and analyzed potential effects
-                  of climate change by simulating environmental catastrophes.
+                  of climate change by simulating environmental catastrophes
                 </Card.Text>
                 <Card.Text class="techStack">
                   Unreal Engine, CityEngine
