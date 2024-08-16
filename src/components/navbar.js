@@ -28,7 +28,6 @@ export default function Navigation() {
             <Nav.Link href="/about"> about</Nav.Link>
             <Nav.Link href="/projects">projects</Nav.Link>
             <Nav.Link href={Resume}> experience </Nav.Link>
-            <Nav.Link href="/contact">contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

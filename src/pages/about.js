@@ -19,7 +19,6 @@ export default function About() {
             </h1>
           </Col>
         </Row>
-
         <Row>
           <Col xs={4}>
             <img
@@ -29,18 +28,18 @@ export default function About() {
                 maxWidth: "100%",
                 borderRadius: "50%",
                 opacity: "90%",
-                padding: "15px",
+                padding: "5px",
               }}
             />
           </Col>
           <Col>
             <Card>
               <p class="lead">
-                i'm currently based in seattle, washington but i'm originally
-                from portland, oregon. some of my favorite hobbies include
-                traveling, photography, eating, programming, listening to music,
-                and hiking. would love to connect with anyone interested in any
-                of the above or anything else
+                i'm currently based in seattle, wa but i'm originally from
+                portland, or. some of my favorite hobbies include traveling,
+                photography, eating, programming, listening to music, and
+                hiking. would love to connect with anyone interested in any of
+                the above or anything else
               </p>
               <p> random things to know about me</p>
               <ul>
@@ -71,14 +70,54 @@ export default function About() {
                   Mind
                 </li>
                 <li> pineapples DO belong on pizza</li>
-                <li> salt & straw {">"} molly moon</li>
                 <li>
                   my favorite restaurants in seattle are: Kin Len, Kobuta &
                   Ookami, Azuki Udon, Cornellys, & Biang Biang but please let me
                   know of any reccs
                 </li>
               </ul>
-              <Card.Link href="/travel"> thuyvy travels!</Card.Link>
+            </Card>
+          </Col>
+        </Row>
+        <br></br>
+        <br></br>
+        <Row>
+          <Col xs={12}>
+            <Card>
+              <Card.Body>
+                <h1 class="display-3">connect with me!</h1>
+
+                <p class="lead"> everywhere to find me, reach me @</p>
+
+                <Card.Link href="mailto:thuyvynguy@gmail.com">email</Card.Link>
+                <Card.Link href="https://github.com/thuyvyng">
+                  github @ thuyvyng
+                </Card.Link>
+                <Card.Link href="https://www.linkedin.com/in/thuyvyng/">
+                  linkedin @ thuyvyng
+                </Card.Link>
+                <Card.Link href="https://www.instagram.com/thuyvyng">
+                  instagram @ thuyvng
+                </Card.Link>
+                <Card.Link href="https://www.goodreads.com/thuyvyng">
+                  goodreads @ thuyvyng
+                </Card.Link>
+                <Card.Link href="https://open.spotify.com/user/tweetynguy">
+                  spotify @ tweetynguy
+                </Card.Link>
+                <Card.Link href="https://letterboxd.com/thuyvyng/">
+                  letterboxd @ thuyvyng
+                </Card.Link>
+                <Card.Link href="https://www.duolingo.com/profile/ThuyVyNg">
+                  duolingo @ thuyvyng
+                </Card.Link>
+                <Card.Link href="https://www.yelp.com/user_details?userid=egY9mB8HEWJOcUCqfYsr_g">
+                  yelp
+                </Card.Link>
+                <Card.Link href="https://www.strava.com/athletes/142466934">
+                  strava
+                </Card.Link>
+              </Card.Body>
             </Card>
           </Col>
         </Row>
