@@ -163,9 +163,7 @@ export default function Projects() {
                   3D Globe Visualization that shows where I've traveled and the
                   photos from these travels when clicked on
                 </Card.Text>
-                <Card.Text class="techStack">
-                  Globe Gl, Google Photos Library API, React
-                </Card.Text>
+                <Card.Text class="techStack">Globe Gl, React</Card.Text>
                 <Card.Link href={"/travel"}>link</Card.Link>
               </Card.Body>
             </Card>
