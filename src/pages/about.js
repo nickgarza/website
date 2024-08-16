@@ -35,11 +35,11 @@ export default function About() {
           <Col>
             <Card>
               <p class="lead">
-                i'm currently based in seattle, wa but i'm originally from
-                portland, or. some of my favorite hobbies include traveling,
-                photography, eating, programming, listening to music, and
-                hiking. would love to connect with anyone interested in any of
-                the above or anything else
+                i'm currently in seattle, wa but i'm originally from portland,
+                or. some of my favorite hobbies include traveling, photography,
+                food, programming, music, pickleball, and hiking. would love to
+                connect with anyone interested in any of the above or anything
+                else
               </p>
               <p> random things to know about me</p>
               <ul>
