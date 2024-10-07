@@ -6824,6 +6824,7 @@
         "scalerank": 1,
         "labelrank": 5,
         "sovereignt": "Cyprus",
+        "visited": 1,
         "sov_a3": "CYP",
         "adm0_dif": 0,
         "level": 2,
@@ -9591,6 +9592,8 @@
         "scalerank": 1,
         "labelrank": 3,
         "sovereignt": "Greece",
+        "visited": 1,
+
         "sov_a3": "GRC",
         "adm0_dif": 0,
         "level": 2,
@@ -22128,6 +22131,8 @@
         "scalerank": 1,
         "labelrank": 2,
         "sovereignt": "Turkey",
+        "visited": 1,
+
         "sov_a3": "TUR",
         "adm0_dif": 0,
         "level": 2,
