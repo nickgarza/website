@@ -413,7 +413,7 @@
             [[311, 312, 313]]
           ],
           "id": "792",
-          "properties": { "name": "Turkey" }
+          "properties": { "name": "Turkey", "visited": true }
         },
         {
           "type": "MultiPolygon",
@@ -1742,7 +1742,7 @@
             [[-313, 1274, 1275, -924, 1276]]
           ],
           "id": "300",
-          "properties": { "name": "Greece" }
+          "properties": { "name": "Greece", "visited": true }
         },
         {
           "type": "Polygon",
@@ -2051,7 +2051,7 @@
           "type": "Polygon",
           "arcs": [[-1450, 1451]],
           "id": "196",
-          "properties": { "name": "Cyprus" }
+          "properties": { "name": "Cyprus", "visited": true }
         },
         {
           "type": "MultiPolygon",
