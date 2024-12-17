@@ -1,5 +1,6 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import Navigation from "../components/navbar";
+import Sparkle from "react-sparkle";
 
 export default function Contact() {
   return (
@@ -12,6 +13,7 @@ export default function Contact() {
         <Row>
           <Col xs={12}>
             <Card style={{ padding: "50px" }}>
+              <Sparkle />
               <Card.Body>
                 <h1 class="display-2"> connect with me!</h1>
                 <p class="lead"> everywhere to find me, reach me @</p>

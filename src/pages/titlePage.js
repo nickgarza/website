@@ -1,5 +1,6 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import Resume from "./resume_thuyvynguyen.pdf";
+import Sparkle from "react-sparkle";
 
 export default function TitlePage() {
   return (
@@ -10,6 +11,7 @@ export default function TitlePage() {
       <Row>
         <Col xs={12}>
           <Card style={{ padding: "50px" }}>
+            <Sparkle count={25} />
             <Card.Body>
               <p class="display-4">
                 hey! i'm{" "}

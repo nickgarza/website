@@ -3,6 +3,7 @@ import Navigation from "../components/navbar";
 import ursaPoster from "./poster.jpg";
 import intern from "./thuyvynguyen_internpresentation.pdf";
 import viva from "./viva.pdf";
+import Sparkle from "react-sparkle";
 
 export default function Projects() {
   return (
@@ -16,6 +17,7 @@ export default function Projects() {
         <Row data-masonry={{ percentPosition: "true" }}>
           <Col>
             <Card>
+              <Sparkle count={5} />
               <Card.Body>
                 <Card.Title>UnPaws the Music</Card.Title>
                 <Card.Text>
@@ -37,6 +39,8 @@ export default function Projects() {
               </Card.Body>
             </Card>
             <Card>
+              <Sparkle count={5} />
+
               <Card.Body>
                 <Card.Title>
                   Interactive Visualization for Artificial Intelligence
@@ -57,6 +61,8 @@ export default function Projects() {
               </Card.Body>
             </Card>{" "}
             <Card>
+              <Sparkle count={5} />
+
               <Card.Body>
                 <Card.Title>What would Cher wear?</Card.Title>
                 <Card.Text>
@@ -77,6 +83,8 @@ export default function Projects() {
           </Col>
           <Col>
             <Card>
+              <Sparkle count={5} />
+
               <Card.Body>
                 <Card.Title>
                   VIVA: Visual Exploration and Analysis of Videos with
@@ -106,6 +114,8 @@ export default function Projects() {
             </Card>
 
             <Card>
+              <Sparkle count={5} />
+
               <Card.Body>
                 <Card.Title>SheepDog</Card.Title>
                 <Card.Subtitle>Oracle Internship Project 2020</Card.Subtitle>
@@ -124,6 +134,8 @@ export default function Projects() {
           </Col>
           <Col>
             <Card>
+              <Sparkle count={5} />
+
               <Card.Body>
                 <Card.Title>
                   Contrastive Identification of Covariate Shift in Image Data
@@ -155,6 +167,8 @@ export default function Projects() {
               </Card.Body>
             </Card>
             <Card>
+              <Sparkle count={5} />
+
               <Card.Body>
                 <Card.Title>ThuyVy Travels!</Card.Title>
                 <Card.Subtitle>Globe To Track ThuyVy's Travels</Card.Subtitle>
@@ -168,6 +182,8 @@ export default function Projects() {
               </Card.Body>
             </Card>
             <Card>
+              <Sparkle count={5} />
+
               <Card.Body>
                 <Card.Title>
                   Visualizing Environmental Disasters with Virtual Reality
