@@ -1,6 +1,5 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import Navigation from "../components/navbar";
-import Me from "../photos/thuyvy.jpeg";
 
 export default function About() {
   return (
@@ -20,7 +19,7 @@ export default function About() {
         </Row>
         <Row>
           <Col xs={4}>
-            <img
+            {/* <img
               src={Me}
               alt="thuyvy"
               style={{
@@ -29,7 +28,7 @@ export default function About() {
                 opacity: "90%",
                 padding: "5px",
               }}
-            />
+            /> */}
           </Col>
           <Col>
             <Card>

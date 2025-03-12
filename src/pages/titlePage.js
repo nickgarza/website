@@ -1,52 +1,44 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
-import Resume from "./resume_thuyvynguyen.pdf";
-import Sparkle from "react-sparkle";
+import Resume from "./resumeNickGarza.pdf";
 
 export default function TitlePage() {
   return (
     <Container>
       <br></br>
-      <br></br>
-      <br></br>
       <Row>
         <Col xs={12}>
           <Card style={{ padding: "50px" }}>
-            <Sparkle count={25} />
             <Card.Body>
               <p class="display-4">
-                hey! i'm{" "}
                 <span
                   class="display-1"
                   style={{
-                    color: "peachpuff",
                     fontFamily: "Concert One",
+                    color: "#779ecb",
                   }}
                 >
-                  <br></br>
-                  Thuy-Vy Nguyen{" "}
+                  NICHOLAS GARZA{" "}
                 </span>
-                <small style={{ color: "peachpuff" }}> (twee-vee win)</small>
-                <br></br>a full-stack engineer
                 <span
                   style={{
-                    color: "pink",
+                    fontFamily: "monospace",
                   }}
-                >
-                  {" "}
-                  @ oracle
-                </span>
-                . interested in creating and doing cool and silly things.
-                <br></br> learn more about them and me here!
+                ></span>
+                <br></br>Software Engineer at Microsoft
+                <br></br>
+                <br></br>
               </p>
+              <p
+                style={{
+                  fontFamily: "monospace",
+                }}
+              ></p>
+              graphics programming // back-end development
               <br></br>
-              <br></br>
-              <br></br>
-              <Card.Link href={Resume}>resume</Card.Link>
-              <Card.Link href="https://github.com/thuyvyng">github</Card.Link>
-              <Card.Link href="https://www.linkedin.com/in/thuyvyng/">
+              <Card.Link href="https://github.com/nickgarza">github</Card.Link>
+              <Card.Link href="https://www.linkedin.com/in/nicholaspgarza/">
                 linkedin
               </Card.Link>
-              <Card.Link href="mailto:thuyvynguy@gmail.com">email</Card.Link>
             </Card.Body>
           </Card>
         </Col>

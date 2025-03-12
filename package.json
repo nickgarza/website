@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thuyvyng.github.io",
+  "homepage": "https://nickgarza.github.io/",
   "dependencies": {
     "@blueprintjs/core": "^5.10.1",
     "@testing-library/jest-dom": "^5.16.5",
