@@ -13,7 +13,7 @@ export default function About() {
           <Col>
             {" "}
             <h1 class="display-2 text-right" style={{ textAlign: "right" }}>
-              all about me
+              About Me
             </h1>
           </Col>
         </Row>
@@ -21,7 +21,7 @@ export default function About() {
           <Col xs={4}>
             {/* <img
               src={Me}
-              alt="thuyvy"
+              alt="nick"
               style={{
                 maxWidth: "100%",
                 borderRadius: "50%",
@@ -33,45 +33,35 @@ export default function About() {
           <Col>
             <Card>
               <p class="lead">
-                i'm currently in seattle, wa but i'm originally from portland,
-                or. some of my favorite hobbies include traveling, photography,
-                food, programming, music, pickleball, and hiking. would love to
-                connect with anyone interested in any of the above or anything
-                else
+                Based in Seattle, WA, I'm a software engineer on the Xbox Graphics team at Microsoft.
+                I graduated from Johns Hopkins University in 2020 with a B.S. in Computer Science and
+                a B.S in Biomedical Engineering. I love high performance computing, graphics programming,
+                and intuitive design. In my free time, I enjoy gaming, making music, trying new recipes, and traveling.
               </p>
               <p> random things to know about me</p>
               <ul>
                 <li>
-                  favorite place i've ever been: thailand (such amazing beaches
-                  + food!)
+                  
                 </li>
                 <li>
                   {" "}
-                  go-to orders
                   <ul>
                     <li>
                       {" "}
-                      starbucks: iced white mocha/ iced vanilla latte /
-                      starberry acai refersher (if too late for coffee)
+                      
                     </li>
-                    <li> jamba juice: pink skittles</li>
+                    <li></li>
                   </ul>
                 </li>
                 <li>
                   {" "}
-                  the most embarrassing fact about me is that I "learned" how to
-                  ride a bike on my 18th birthday
                 </li>
                 <li>
                   {" "}
-                  my favorite books are Severance & The Coddling of the American
-                  Mind
+
                 </li>
-                <li> pineapples DO belong on pizza</li>
+                <li> </li>
                 <li>
-                  my favorite restaurants in seattle are: Kin Len, Kobuta &
-                  Ookami, Azuki Udon, Cornellys, & Biang Biang but please let me
-                  know of any reccs
                 </li>
               </ul>
             </Card>
