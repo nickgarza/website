@@ -1,5 +1,5 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
-import Resume from "./resumeNickGarza.pdf";
+import Resume from "./NickResume2026.pdf";
 import React, { useState, useEffect, useMemo } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";

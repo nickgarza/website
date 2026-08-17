@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import Resume from "../pages/resumeNickGarza.pdf";
+import Resume from "../pages/NickResume2026.pdf";
 export default function Navigation() {
   return (
     <Navbar sticky="top" expand="lg">
