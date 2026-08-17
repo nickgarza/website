@@ -74,38 +74,28 @@ export default function About() {
               <Card.Body>
                 <Row>
                   <Col>
-                    <h1 class="display-3">connect with me!</h1>
-                    <p class="lead"> everywhere to find me, reach me @</p>
+                    <h1 class="display-3">Links</h1>
                   </Col>
                   <Col>
-                    <Card.Link href="mailto:thuyvynguy@gmail.com">
+                    <Card.Link href="mailto:nicholaspgarza@gmail.com">
                       email
                     </Card.Link>
-                    <Card.Link href="https://github.com/thuyvyng">
-                      github @ thuyvyng
+                    <Card.Link href="https://github.com/nickgarza">
+                      github @ nickgarza
                     </Card.Link>
-                    <Card.Link href="https://www.linkedin.com/in/thuyvyng/">
-                      linkedin @ thuyvyng
+                    <Card.Link href="https://www.linkedin.com/in/nicholaspgarza/">
+                      linkedin
                     </Card.Link>
-                    <Card.Link href="https://www.instagram.com/thuyvyng">
-                      instagram @ thuyvng
+                    <Card.Link href="https://open.spotify.com/user/12181205357?si=7b34b18c35144111">
+                      spotify
                     </Card.Link>
-                    <Card.Link href="https://www.goodreads.com/thuyvyng">
-                      goodreads @ thuyvyng
+                    <Card.Link href="https://letterboxd.com/nickpgarza/">
+                      letterboxd @ nickpgarza
                     </Card.Link>
-                    <Card.Link href="https://open.spotify.com/user/tweetynguy">
-                      spotify @ tweetynguy
-                    </Card.Link>
-                    <Card.Link href="https://letterboxd.com/thuyvyng/">
-                      letterboxd @ thuyvyng
-                    </Card.Link>
-                    <Card.Link href="https://www.duolingo.com/profile/ThuyVyNg">
-                      duolingo @ thuyvyng
-                    </Card.Link>
-                    <Card.Link href="https://www.yelp.com/user_details?userid=egY9mB8HEWJOcUCqfYsr_g">
+                    <Card.Link href="hhttps://www.yelp.com/user_details?userid=-OF387yUbEMXG3elGFixFw">
                       yelp
                     </Card.Link>
-                    <Card.Link href="https://www.strava.com/athletes/142466934">
+                    <Card.Link href="https://www.strava.com/athletes/77617669">
                       strava
                     </Card.Link>
                   </Col>
