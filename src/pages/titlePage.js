@@ -133,7 +133,7 @@ export default function TitlePage() {
         <Col xs={12} md={4}>
           <img
             src={Me}
-            alt="thuyvy"
+            alt="nick"
             style={{
               maxWidth: "100%",
               borderRadius: "100%",
